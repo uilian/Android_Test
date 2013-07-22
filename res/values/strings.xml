@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">K19-Sample</string>
+    <string name="action_settings">Configurações</string>
+    <string name="hello_world">Oi!</string>
+    <string name="name">Nome: </string>
+    <string name="btn_view_message">Ver mensagem</string>
+    <string name="kichute">Kichute</string>
+    <string name="kichute_desc">Antiga marca de tênis</string>
+    <string name="lastname">Sobrenome</string>
+    <string name="hello_message">Olá, %1$s!</string>
+    <string name="next_button">"Próxima tela ... "</string>
+    <string name="second_screen">Segunda tela ...</string>
+        
+</resources>

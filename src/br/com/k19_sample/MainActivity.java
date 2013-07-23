@@ -16,7 +16,6 @@ public class MainActivity extends Activity {
 		//setContentView(R.layout.activity_main);
 		setContentView(R.layout.intents_main);
 		
-		
 		Button nextButton = (Button) findViewById(R.id.next_screen);
 		
 		nextButton.setOnClickListener(new OnClickListener() {

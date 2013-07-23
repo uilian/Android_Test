@@ -10,7 +10,16 @@
     <string name="kichute_desc">Antiga marca de tênis</string>
     <string name="lastname">Sobrenome</string>
     <string name="hello_message">Olá, %1$s!</string>
-    <string name="next_button">"Próxima tela ... "</string>
-    <string name="second_screen">Segunda tela ...</string>
+    <string name="next_button">Próxima tela</string>
+    <string name="second_screen">Segunda tela</string>
+    <string name="label_age">Idade</string>
+    <string name="next_screen">Calcular</string>
+    <string name="label_weight">Peso</string>
+    
+    <string name="imc_result">Seu IMC é: %1$s</string>
+    
+    <string name="label_height">Altura</string>
+    
+    <string name="ideal_weight">Seu peso ideal é entre %1$s e %2$s</string>
         
 </resources>

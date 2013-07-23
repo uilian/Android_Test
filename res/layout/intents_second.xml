@@ -3,14 +3,39 @@
     xmlns:android ="http://schemas.android.com/apk/res/android"
     android:layout_width= "match_parent"
     android:layout_height= "match_parent" 
-    android:orientation= "vertical" >
+    android:orientation= "vertical"
+    android:padding="15dp" >
     
     <TextView  
-	    android:layout_marginTop="10dp"
+        android:id="@+id/weight_label"
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content" 
-	    android:text="@string/second_screen" 
-	    android:drawableBottom="@drawable/kichute" 
-	    android:padding="5dp" />
+	    android:text="@string/label_weight" 
+	    android:layout_marginTop="10dp"/>
+    
+    <EditText 
+        android:id="@+id/weight_edit_text"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView 
+        android:id="@+id/height_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_height"
+        android:layout_marginTop="10dp"/>
+    
+    <EditText 
+        android:id="@+id/height_edit_text"        
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <Button 
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/next_button"/>
     
 </LinearLayout>
